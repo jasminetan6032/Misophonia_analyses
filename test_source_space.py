@@ -24,7 +24,7 @@ paradigm = 'Misophonia'
 # # participants['miso'] = ['118601','118801','119001','125101','124201']
 # # participants['TD'] = ['116201','114601']
 
-participant = '114601'
+participant = '129901'
 
 local_dir = '/local_mount/space/hypatia/2/users/Jasmine'
 data_dir = os.path.join(local_dir,paradigm,participant)
@@ -52,7 +52,7 @@ for path, directory_names, filenames in os.walk(data_dir):
 
 #mne.bem.make_watershed_bem('118601_20230822', subjects_dir='/autofs/space/transcend/MRI/WMA/recons/')
 
-participant = '116201'
+participant = '102201'
 
 transcend_dir = '/autofs/space/transcend/MEG/'
 
